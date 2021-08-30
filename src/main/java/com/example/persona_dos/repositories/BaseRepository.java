@@ -1,6 +1,6 @@
-package com.example.persona.repositories;
+package com.example.persona_dos.repositories;
 
-import com.example.persona.entities.Base;
+import com.example.persona_dos.entities.Base;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.NoRepositoryBean;
 

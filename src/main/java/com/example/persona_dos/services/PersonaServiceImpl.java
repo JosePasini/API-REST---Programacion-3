@@ -1,9 +1,9 @@
-package com.example.persona.services;
+package com.example.persona_dos.services;
 
-import com.example.persona.entities.Persona;
-import com.example.persona.repositories.BaseRepository;
-import com.example.persona.repositories.PersonaRepository;
-import com.example.persona.controllers.PersonaController;
+import com.example.persona_dos.entities.Persona;
+import com.example.persona_dos.repositories.BaseRepository;
+import com.example.persona_dos.repositories.PersonaRepository;
+import org.hibernate.envers.Audited;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,10 +16,6 @@ public class PersonaServiceImpl extends BaseServiceImpl<Persona, Long> implement
 
     @Autowired
     private PersonaRepository personaRepository;
-
-    /*
-    La etiqueta @Autowired(required = "true") reemplaza este constructor
-    */
 
     public PersonaServiceImpl(BaseRepository<Persona, Long> baseRepository){
         super(baseRepository);

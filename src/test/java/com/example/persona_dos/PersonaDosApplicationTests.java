@@ -1,10 +1,10 @@
-package com.example.persona;
+package com.example.persona_dos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PersonaApplicationTests {
+class PersonaDosApplicationTests {
 
     @Test
     void contextLoads() {
